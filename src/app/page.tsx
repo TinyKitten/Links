@@ -4,7 +4,7 @@ import { Symbol } from "./components/Symbol";
 export default function Home() {
   return (
     <div className="font-sans bg-gray-100 flex flex-col items-center justify-center min-h-screen p-8 h-full">
-      <main className="bg-white aspect-[1/1.65] max-w-[379px] max-h-[627px] w-full h-full rounded-2xl relative overflow-hidden shadow-xl p-2">
+      <main className="bg-white aspect-[1/1.65] max-w-[379px] max-h-[627px] w-full h-full rounded-3xl relative overflow-hidden shadow-xl p-2">
         <Symbol className="absolute top-0 right-0" />
         <div className="flex flex-col items-start justify-center h-full p-4 mt-8">
           <div className="mb-8 max-sm:mb-6">
