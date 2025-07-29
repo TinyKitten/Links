@@ -21,7 +21,7 @@ export const LinkButton = ({
       target="_blank"
       {...props}
       className={twMerge(
-        `block bg-white w-full p-0 text-left border-l-12 rounded-sm px-4 py-3 shadow cursor-pointer hover:shadow-lg transition-shadow`,
+        `block bg-white w-full p-0 text-left border-l-16 rounded-sm px-4 py-3 shadow cursor-pointer hover:shadow-lg transition-shadow`,
         className
       )}
       style={{ borderLeftColor: color }}
