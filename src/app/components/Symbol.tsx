@@ -5,7 +5,7 @@ export const Symbol = (props: React.HTMLAttributes<HTMLDivElement>) => {
     <div
       {...props}
       className={twMerge(
-        "bg-[#008ffe] aspect-square w-1/3 h-auto flex items-center justify-center rounded-bl-3xl",
+        "bg-[#008ffe] aspect-square w-1/3 h-auto flex items-center justify-center rounded-bl-3xl shadow-[#008ffe]/16 shadow-sm",
         props.className
       )}
     >
