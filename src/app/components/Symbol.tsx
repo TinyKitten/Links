@@ -5,7 +5,7 @@ export const Symbol = (props: React.HTMLAttributes<HTMLDivElement>) => {
     <div
       {...props}
       className={twMerge(
-        "bg-[#008ffe] w-30 h-30 max-sm:w-20 max-sm:h-20 flex items-center justify-center rounded-bl-2xl",
+        "bg-[#008ffe] aspect-square w-1/3 h-auto flex items-center justify-center rounded-bl-2xl",
         props.className
       )}
     >
@@ -15,7 +15,7 @@ export const Symbol = (props: React.HTMLAttributes<HTMLDivElement>) => {
         viewBox="0 0 449 314"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="w-1/2 h-1/2"
+        className="w-3/5 h-auto"
       >
         <path
           fillRule="evenodd"
