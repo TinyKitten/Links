@@ -13,7 +13,7 @@ export const App = () => (
             フロントエンドエンジニア
           </h2>
           <h1 className="font-bold text-3xl">TinyKitten</h1>
-          <h3 className="font-bold text-sm/4">Tsubasa SEKIGUCHI</h3>
+          <h2 className="font-bold text-sm/4">Tsubasa SEKIGUCHI</h2>
           <p className="text-sm/4">
             aka <span className="font-bold">Kittan</span>
           </p>
