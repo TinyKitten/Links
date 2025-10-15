@@ -46,7 +46,7 @@ export const LinkButton = ({
       />
       <div className="relative flex flex-col justify-center rounded-r-[2px] pl-4 z-10 bg-white w-full mr-1 h-[calc(100%-4px)]">
         <p className="font-bold max-sm:text-sm/4">{label}</p>
-        <p className="text-xs/4 font-semibold text-gray-500">{href}</p>
+        <p className="text-xs/4 font-semibold text-gray-600">{href}</p>
       </div>
     </a>
   );

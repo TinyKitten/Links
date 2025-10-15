@@ -33,7 +33,7 @@ export const App = () => (
       </div>
     </main>
     <footer className="mt-6 flex-wrap items-center justify-center">
-      <p className="text-center text-gray-500 leading-5">
+      <p className="text-center text-gray-600 leading-5">
         The combination of <span className="font-semibold">Alpha</span>
         <br />A piece of something else.
       </p>
